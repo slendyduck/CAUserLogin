@@ -41,8 +41,8 @@ public class InMemoryUserDataAccessObject implements SignupUserDataAccessInterfa
     }
 
     @Override
-    public String getUsername() {
-        return currentUser;
+    public String getCurrentUser() {
+        return this.currentUser;
     }
 
     @Override

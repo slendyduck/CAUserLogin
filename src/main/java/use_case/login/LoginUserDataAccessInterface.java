@@ -37,5 +37,5 @@ public interface LoginUserDataAccessInterface {
      * Returns the current username.
      * @return the username.
      */
-    String getUsername();
+    String getCurrentUser();
 }
